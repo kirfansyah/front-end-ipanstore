@@ -16,4 +16,42 @@
             }
         }
     }
+
+    .store-heading {
+        margin-bottom: 10px;
+
+        h1 {
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 36px;
+            color: #0C0D36;
+            margin-bottom: 0px;
+        }
+
+        .owner {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+            color: #979797;
+            margin-bottom: 8px;
+        }
+
+        .price {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            /* identical to box height */
+            color: #FF7158;
+            margin-bottom: 10px;
+        }
+    }
+
+    .store-description {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 180%;
+        /* or 29px */
+        color: #525252;
+    }
 }
