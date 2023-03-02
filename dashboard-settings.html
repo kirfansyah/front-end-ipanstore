@@ -25,10 +25,10 @@
           <img src="/images/dashboard-store-logo.svg" class="my-4" alt="">
         </div>
         <div class="list-group list-group-flush">
-          <a href="/dashboard.html" class="list-group-item list-group-action active">Dashboard</a>
+          <a href="/dashboard.html" class="list-group-item list-group-action ">Dashboard</a>
           <a href="/dashboard-products.html" class="list-group-item list-group-action">My Products</a>
           <a href="/dashboard-transactions.html" class="list-group-item list-group-action">Transactions</a>
-          <a href="/dashboard-settings.html" class="list-group-item list-group-action">Store Settings</a>
+          <a href="/dashboard-settings.html" class="list-group-item list-group-action active">Store Settings</a>
           <a href="/dashboard-account.html" class="list-group-item list-group-action">My Account</a>
           <a href="/index.html" class="list-group-item list-group-action">Sign out</a>
         </div>
@@ -86,116 +86,58 @@
         <div class="section-content section-dashboard-home" data-aos="fade-up">
           <div class="container-fluid">
             <div class="dashboard-heading">
-              <h2 class="dashboard-title">Dashboard</h2>
+              <h2 class="dashboard-title">Store Settings</h2>
               <p class="dashboard-subtitle">
-                Look what you have made today!
+                Make store that profitable
               </p>
             </div>
             <div class="dashboard-content">
               <div class="row">
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="dashboard-card-title">
-                        Customer
-                      </div>
-                      <div class="dashboard-card-subtitle">
-                        15,209
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="dashboard-card-title">
-                        Revenue
-                      </div>
-                      <div class="dashboard-card-subtitle">
-                        $931,290
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card mb-2">
-                    <div class="card-body">
-                      <div class="dashboard-card-title">
-                        Transaction
-                      </div>
-                      <div class="dashboard-card-subtitle">
-                        22,409,399
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="col-12 mt-2">
-                  <h5 class="mb-3">Recent Transactions</h5>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-1">
-                          <img src="/images/dashboard-product-icon-1.png" alt="">
+                <div class="col-12">
+                  <form action="">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="">Nama Toko</label>
+                              <input type="email" name="" id="" class="form-control" autofocus>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="">Kategori</label>
+                              <select name="category" class="form-control">
+                                <option value="" disabled>Select category</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label for="">Store</label>
+                              <p class="text-muted">Apakah anda juga ingin membuka toko?</p>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="is_store_open" id="openStoreTrue"
+                                  value="true">
+                                <label for="openStoreTrue" class="custom-control-label">Buka</label>
+                              </div>
+                              <div class="custom-control custom-radio custom-control-inline">
+                                <input type="radio" class="custom-control-input" name="is_store_open"
+                                  id="openStoreFalse" value="false">
+                                <label for="openStoreFalse" class="custom-control-label">Sementara Tutup</label>
+                              </div>
+
+                            </div>
+                          </div>
                         </div>
-                        <div class="col-md-4">
-                          Shirup Marzzan
-                        </div>
-                        <div class="col-md-3">
-                          Angga Risky
-                        </div>
-                        <div class="col-md-3">
-                          12 Januari, 2020
-                        </div>
-                        <div class="col-md-1 d-none d-md-block">
-                          <img src="/images/dashboard-arrow-right.svg" alt="">
+                        <div class="row">
+                          <div class="col text-right">
+                            <button type="submit" class="btn btn-success px-5">Save Now</button>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </a>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-1">
-                          <img src="/images/dashboard-product-icon-2.png" alt="">
-                        </div>
-                        <div class="col-md-4">
-                          LeBrone X
-                        </div>
-                        <div class="col-md-3">
-                          Masayoshi
-                        </div>
-                        <div class="col-md-3">
-                          11 January, 2020
-                        </div>
-                        <div class="col-md-1 d-none d-md-block">
-                          <img src="/images/dashboard-arrow-right.svg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                  <a href="/dashboard-transactions-details.html" class="card card-list d-block">
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-1">
-                          <img src="/images/dashboard-product-icon-3.png" alt="">
-                        </div>
-                        <div class="col-md-4">
-                          Soffa Lembutte
-                        </div>
-                        <div class="col-md-3">
-                          Shayna
-                        </div>
-                        <div class="col-md-3">
-                          11 January, 2020
-                        </div>
-                        <div class="col-md-1 d-none d-md-block">
-                          <img src="/images/dashboard-arrow-right.svg" alt="">
-                        </div>
-                      </div>
-                    </div>
-                  </a>
+                  </form>
                 </div>
               </div>
             </div>
